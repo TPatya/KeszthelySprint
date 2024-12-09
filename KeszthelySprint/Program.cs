@@ -29,6 +29,12 @@
                 atlag += DateTime.Now.Year - s.Szuletes;
             }
             Console.WriteLine($"4. feladat \t Az átlag életkor: {atlag / versenyzok.Count():0.0} év");
+
+
+            //5 a, bekérés
+
+            Console.Write($"5.Feladat: \t Adj meg egy kategóriát:");
+            string kategoria = Console.ReadLine();
         }
     }
 }
